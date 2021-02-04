@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Web Visualization Dashboard Using Bootstrap</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+
+<body>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Latitude</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon">Plots</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="dropdown-menu" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                    <a class="nav-link" href="data.html">Data</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </div> -->
+    <!-- </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1>Latitude</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Plots
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="Visualizations/wind.html">Wind Speed</a></li>
+                            <li><a class="dropdown-item" href="Visualizations/temp.html">Temperature</a></li>
+                            <li><a class="dropdown-item" href="Visualizations/humidity.html">Humidity</a></li>
+                            <li><a class="dropdown-item" href="Visualizations/cloudiness.html">Cloudiness</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- <nav class="navbar navbar-default my-navbar-padding">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                    <span class="navbar-toggler-icon">Plots</span>
+                    <span class="icon-bar">Comparison</span>
+                    <span class="icon-bar">Data</span>
+                </button>
+                <a class="navbar-brand my-nav-brand" href="index.html">Latitude</a>
+    </nav> -->
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 background-color white-space-right">
+                <h1>Summary: Latitude Vs. X</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-12 clearfix">
+                        <a target=_blank href="assets/LatitudevsMax_Temp.png" alt="Latitude Vs Temperature">
+                            <img class="image-responsive pull-left resizemain"
+                                src="assets/LatitudevsMax_Temp.png" alt="Temperature Vs Latitude">
+                        </a>
+                        <p class="maintext">
+                            This project set out to investigate weather changes as one drifts towards the equator.
+                            Around the equator, the ambient temperature is quite high but as one
+                            goes further north, ambient temperature drops quite significantly. To obtain the data,
+                            jupyter notebook was used to access the Openweathermap API and pulled of
+                            some 576 cities at the time of the pull. The corresponding data was plotted using a scatter
+                            plot to show the representation as seen here.</p>
+                        <br>
+                        <p class="maintext">
+                            With data obtained for all over 500 cities, Matplotlib was used to generate a scatter plot
+                            of latitude from
+                            earth's geographic field and analysed with respect to ambient humidity, wind speed,
+                            cloudiness and temperature. This site provides the source data and visualizations
+                            created as part of the analysis, as well as explanations and descriptions of significant
+                            trends and correlations observed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 background-color white-space-left" style="height:65%;">
+                <h1>Visualizations</h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a target=_blank href="Visualizations/temp.html">
+                            <img class="image-responsive resize repose" src="assets/LatitudevsMax_Temp.png"
+                                alt="Latitude Vs Temperature">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a target=_blank href="Visualizations/humidity.html">
+                            <img class="image-responsive resize repose" src="assets/LatitudevsHumidity.png"
+                                alt="Latitude Vs Humidity">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a target=_blank href="Visualizations/cloudiness.html">
+                            <img class="image-responsive resize repose" src="./assets/images/LatitudevsCloudiness.png"
+                                alt="Latitude Vs Cloudiness">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a target=_blank href="Visualizations/wind.html">
+                            <img class="image-responsive resize repose" src="assets/LatitudevsWind_Speed.png"
+                                alt="Latitude Vs Windspeed">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© Copyright Jonathan Ezeugo 2021
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>
