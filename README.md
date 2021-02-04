@@ -25,7 +25,7 @@ The four scatter plots generated from this weather analysis is now published on 
     - Latitude vs Maximum temperature page: This page shows the scatter plot defining the relationship between the ambient temperature and latitude location on when each specific city is.
 <img src="Max_Temp_Page.PNG">
     - Latitude vs Wind Speed Visualizaton Page: This page shows the scatter plot for the relationship between latitude of a city and the wind speed. It shows there is no clear relationship to correlate both.
-<img src="Wind_Speed.PNG">
+<img src="Wind_Speed_Page.PNG">
     - Latitude vs Humidity page: This shows the scatter plot defining the relationship between the ambient humidity and latitude location for each city.
 <img src="Humidity_Page.PNG"> 
     - Latitude vs Cloudiness page: This page shows the scatter plot drawing a relationship between cloudiness of a city and latitude location of the city.
