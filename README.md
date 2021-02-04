@@ -18,8 +18,9 @@ The four scatter plots generated from this weather analysis is now published on 
 
 1. The Landing Page
     This is the first page that the website shows to the viewer. It gives a summary visualization of the essense fo the weather analysis. It also links to the other visualizations pages. There is also a side bar showing the preview images of each plot. Clicking the image takes the webpage visitor to that specific visualization. 
-    []("Landing_Page.png")
-    <img src="./Landing_Page">
+![Landing_Page]("./Landing_Page.png") 
+[Landing_Page]("Landing_Page.png")
+<img src="./Landing_Page">
 2. Four Visualizaton plots consisting of:
     - Latitude vs Maximum temperature page: This page shows the scatter plot defining the relationship between the ambient temperature and latitude location on when each specific city is.
     - Latitude vs Wind Speed Visualizaton Page: This page shows the scatter plot for the relationship between latitude of a city and the wind speed. It shows there is no clear relationship to correlate both.
