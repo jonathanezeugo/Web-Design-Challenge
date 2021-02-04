@@ -21,13 +21,19 @@ The four scatter plots generated from this weather analysis is now published on 
 
 <img src="Landing_Page.PNG">
 2. Four Visualizaton plots consisting of:
+
     - Latitude vs Maximum temperature page: This page shows the scatter plot defining the relationship between the ambient temperature and latitude location on when each specific city is.
+<img src="Max_Temp_Page.PNG">
     - Latitude vs Wind Speed Visualizaton Page: This page shows the scatter plot for the relationship between latitude of a city and the wind speed. It shows there is no clear relationship to correlate both.
-    - Latitude vs Humidity page: This shows the scatter plot defining the relationship between the ambient humidity and latitude location for each city. 
+<img src="Wind_Speed.PNG">
+    - Latitude vs Humidity page: This shows the scatter plot defining the relationship between the ambient humidity and latitude location for each city.
+<img src="Humidity_Page.PNG"> 
     - Latitude vs Cloudiness page: This page shows the scatter plot drawing a relationship between cloudiness of a city and latitude location of the city.
+    <img src="Cloudiness_Page.PNG">
 
 3. A Comparisons Page:
     This contains all four visualizations across on screens medium and large for each view and analysis.
+    <img src="Comparisons_Page.PNG">
 
 4. A Data page:
     This is a portrayal of the queried data from which the scatter plots were generated. It was first a csv file but then converted to a html file for webpage casting. 
