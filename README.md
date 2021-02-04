@@ -18,7 +18,7 @@ The four scatter plots generated from this weather analysis is now published on 
 
 1. The Landing Page
     This is the first page that the website shows to the viewer. It gives a summary visualization of the essense for the weather analysis. It also links to the other visualizations pages. There is also a side bar showing the preview images of each plot. Clicking the image takes the webpage visitor to that specific visualization. https://jonathanezeugo.github.io/Web-Design-Challenge/
-    
+
 
 <img src="Landing_Page.PNG">
 2. Four Visualizaton plots consisting of:
@@ -32,7 +32,6 @@ The four scatter plots generated from this weather analysis is now published on 
 
 <img src="Humidity_Page.PNG"> 
     - Latitude vs Cloudiness page: This page shows the scatter plot drawing a relationship between cloudiness of a city and latitude location of the city. Here's the page: https://jonathanezeugo.github.io/Web-Design-Challenge/Visualizations/cloudiness.html
-
     <img src="Cloudiness_Page.PNG">
 
 3. A Comparisons Page:
