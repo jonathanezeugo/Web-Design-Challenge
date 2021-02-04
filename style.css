@@ -1,3 +1,4 @@
+/* Header formating */
 .page-header{
 margin-top: 0px;
 background-color: white;
@@ -90,9 +91,9 @@ display: block;
 margin-left: 20px;
 margin-right: auto;
 margin-bottom: 20px;
-  /* width: 40%; */
+width: 40%;
 }
-/* Create two equal columns that sits next to each other */
+/* Setting up two side-by-side columns */
 .column {
 flex: 50%;
 padding: 0 4px;
@@ -139,7 +140,7 @@ border-top: 5px solid lightseagreen;
 }
 
 /* NAVBAR INFO */
-.my-nav-brand {
+/* .my-nav-brand {
   background-color: seagreen;
   color: white !important;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -153,4 +154,4 @@ border-top: 5px solid lightseagreen;
 
 .my-navbar-padding {
   padding: 0px 0px 0px 75px !important;
-}
+} */

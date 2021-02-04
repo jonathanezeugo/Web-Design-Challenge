@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Code head sections -->
+
 <head>
     <meta charset="utf-8" />
     <title>Web Visualization Dashboard Using Bootstrap</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-
+    <!-- Accessing the bootstrap css formating file on the bootstrap website -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
 
+    <!-- Routing to the style.css file for styling-->
     <link rel="stylesheet" type="text/css" href="../style.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+    <!-- Accessing the bootstrap css bundle formating file on the bootstrap website -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
@@ -25,6 +28,7 @@
 </head>
 
 <body>
+    <!-- Navigation bar setup -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -61,6 +65,7 @@
             </div>
         </div>
     </nav>
+    <!-- End of navigation bar, start of page body -->
     <div class="container">
         <div class="row">
             <div class="col-lg-8 background-color white-space-right img">
@@ -70,7 +75,8 @@
                     <img src="../assets/LatitudevsCloudiness.png" alt="Latitude Vs Cloudiness">
                 </a>
                 <p class="maintext">
-                    Cloudiness, as shown in the data, has no clear relationship with latitude.
+                    This scatter plot attempts to help draw a relationship between Latitude location coordinates with Cloudiness in that city. 
+                    As shown in the data, there is no clear relationship between latitude cloudiness.
                 </p>
             </div>
             <div class="col-lg-4 background-color white-space-left side-height">
@@ -106,14 +112,14 @@
             </div>
         </div>
     </div>
-    <!-- Footer -->
+    <!-- Footer Section-->
     <footer class="page-footer font-small">
-        <!-- Copyright -->
+        <!-- Copyright Information-->
         <div class="footer-copyright text-center py-3">© Copyright Jonathan Ezeugo 2021
         </div>
-        <!-- Copyright -->
+
     </footer>
-    <!-- Footer -->
+
 </body>
 
 </html>
